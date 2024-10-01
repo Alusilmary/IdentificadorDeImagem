@@ -1,0 +1,54 @@
+body {
+  color: white;
+  background: #6e1725;
+}
+
+.container {
+  width: 80%; 
+  max-width: 800px; 
+  margin: 50px auto; 
+  background-color: white; 
+  border-radius: 10px; 
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.heading {
+  width: 95%;
+  font-size: 28px;
+  font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+.description {
+  font-size: 28px;
+  font-family: Oswald, sans-serif;
+  color: #5f5d5a;
+}
+
+#camera {
+  border: 2px dashed #6e1725;
+  width: 350px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.nameOfObjects, #resultObjectName, #resultObjectAccuracy {
+  font-size: 18px;
+  font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+#result {
+  border: 2px dashed #6e1725;
+  width: 360px;
+  height: 315px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+#obj, #precisao {
+  color: #6e1725;
+  font-size: 18px;
+  font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+
